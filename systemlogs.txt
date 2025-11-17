@@ -1,0 +1,34 @@
+1. sudo apt purge tree
+
+2025-11-17T09:39:34.997404+00:00 VISHNUPC wsl-pro-service[182]: #033[36mINFO#033[0m Reconnecting to Windows host in 60 seconds
+2025-11-17T09:39:34.997471+00:00 VISHNUPC wsl-pro-service[182]: #033[37mDEBUG#033[0m Updated systemd status to "Not connected: waiting to retry"
+2025-11-17T09:39:52.854426+00:00 VISHNUPC systemd-resolved[105]: Clock change detected. Flushing caches.
+2025-11-17T09:39:52.396391+00:00 VISHNUPC systemd-resolved[105]: Clock change detected. Flushing caches.
+2025-11-17T09:40:21.268113+00:00 VISHNUPC systemd-resolved[105]: Clock change detected. Flushing caches.
+
+2. sudo apt install tree
+
+ VISHNUPC systemd[1]: Starting packagekit.service - PackageKit Daemon...
+2025-11-17T09:24:21.945274+00:00 VISHNUPC PackageKit: daemon start
+2025-11-17T09:24:22.120368+00:00 VISHNUPC dbus-daemon[159]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+2025-11-17T09:24:22.120670+00:00 VISHNUPC systemd[1]: Started packagekit.service - PackageKit Daemon.
+2025-11-17T09:24:34.813753+00:00 VISHNUPC systemd-resolved[105]: Clock change detected. Flushing caches.
+2025-11-17T09:24:34.476281+00:00 VISHNUPC systemd-resolved[105]: Clock change detected. Flushing caches.
+2025-11-17T09:24:44.640264+00:00 VISHNUPC wsl-pro-service[182]: #033[36mINFO#033[0m Daemon: connecting to Windows Agent
+2025-11-17T09:24:44.640615+00:00 VISHNUPC wsl-pro-service[182]: #033[37mDEBUG#033[0m Updated systemd status to "Connecting"
+
+3. tree
+
+ VISHNUPC systemd-resolved[105]: message repeated 3 times: [ Clock change detected. Flushing caches.]
+2025-11-17T09:44:18.225609+00:00 VISHNUPC wsl-pro-service[182]: #033[36mINFO#033[0m Daemon: connecting to Windows Agent
+2025-11-17T09:44:18.225810+00:00 VISHNUPC wsl-pro-service[182]: #033[37mDEBUG#033[0m Updated systemd status to "Connecting"
+2025-11-17T09:44:18.227316+00:00 VISHNUPC wsl-pro-service[182]: #033[33mWARNING#033[0m Daemon: could not connect to Windows Agent: could not get address: could not read agent port file "/mnt/c/Users/vpkin/.ubuntupro/.address": open /mnt/c/Users/vpkin/.ubuntupro/.address: no such file or directory
+2025-11-17T09:44:18.227394+00:00 VISHNUPC wsl-pro-service[182]: #033[36mINFO#033[0m Reconnecting to Windows host in 60 seconds
+
+3. cd run
+
+message repeated 3 times: [ Clock change detected. Flushing caches.]
+2025-11-17T09:46:11.477916+00:00 VISHNUPC wsl-pro-service[182]: #033[36mINFO#033[0m Daemon: connecting to Windows Agent
+2025-11-17T09:46:11.478043+00:00 VISHNUPC wsl-pro-service[182]: #033[37mDEBUG#033[0m Updated systemd status to "Connecting"
+2025-11-17T09:46:11.478357+00:00 VISHNUPC wsl-pro-service[182]: #033[33mWARNING#033[0m Daemon: could not connect to Windows Agent: could not get address: could not read agent port file "/mnt/c/Users/vpkin/.ubuntupro/.address": open /mnt/c/Users/vpkin/.ubuntupro/.address: no such file or directory
+2025-11-17T09:46:11.478497+00:00 VISHNUPC wsl-pro-service[182]: #033[36mINFO#033[0m Reconnecting to Windows host in 60 seconds
